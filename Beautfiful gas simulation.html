@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Gas Lab - GUI</title>
+  </head>
+  <body>
+    <p><font color="red">If nothing shows up below, download <a href="http://mw2.concord.org/public/lib/mwapplet.jar">mwapplet.jar</a> to where this HTML file is located, and then refresh this page. This line of message should be removed if the applet works.</font></p>
+    <center>
+      <applet code="org.concord.modeler.MwApplet" archive="mwapplet.jar" width="100%" height="600">
+        <param name="script" value="page:0:import Beautfiful gas simulation.cml"/>
+      </applet>
+      <br><br>
+      <p>If you have any problem with the above applet, use the following button to run it.
+      <p><form action="http://mw2.concord.org/tmp.jnlp" method="GET">
+        <input type="HIDDEN" name="address" value="D:\OneDrive\OneDrive - Stellenbosch University\Programming\Molecular workbench\Beautfiful gas simulation.cml">
+        <input type="SUBMIT" value="Run this simulation using Molecular Workbench">
+      </form>
+      <p><b>System requirements:</b> You must have Java Version 5 or higher. <a href="http://java.com">Download Java now</a>.
+    </center>
+  </body>
+</html>
